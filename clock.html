@@ -9,25 +9,28 @@
     <link rel="canonical" href="https://temp.dog/" />
     <style>
       :root {
-  --mocha: #4b3621;
-  --cappuccino: #c8a27a;
-  --foam: #f3e0c7;
-  --cream: #fdf6ec;
-  --latte: #dcb88f;
+  --ctp-crust: #11111b;
+  --ctp-mantle: #181825;
+  --ctp-base: #1e1e2e;
+  --ctp-surface1: #45475a;
+  --ctp-surface2: #585b70;
+  --ctp-subtext0: #a6adc8;
+  --ctp-text: #cdd6f4;
+  --ctp-mauve: #cba6f7;
 
   --ease: cubic-bezier(0.87, 0, 0.13, 1);
 
-  --bg: var(--foam);
-  --fg: var(--mocha);
-  --pattern: var(--latte);
-  --sig-color: var(--cappuccino);
+  --bg: var(--ctp-base);
+  --fg: var(--ctp-text);
+  --pattern: var(--ctp-surface1);
+  --sig-color: var(--ctp-mauve);
 }
 
 body.night {
-  --bg: #3a2718;
-  --fg: var(--latte);
-  --pattern: var(--mocha);
-  --sig-color: var(--latte);
+  --bg: var(--ctp-crust);
+  --fg: var(--ctp-subtext0);
+  --pattern: var(--ctp-mantle);
+  --sig-color: var(--ctp-surface2);
 }
       * {
   -webkit-tap-highlight-color: transparent;
