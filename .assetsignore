@@ -1,0 +1,10 @@
+.git
+.vscode
+.editorconfig
+.prettierrc
+.gitignore
+.nojekyll
+CNAME
+wrangler.jsonc
+.assetsignore
+node_modules
